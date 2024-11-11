@@ -1,0 +1,280 @@
+
+
+.card {
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.card2 {
+  align-items: center;
+  border-radius: 25px;
+  text-align: start;
+  flex-direction: column;
+  width: 278px;
+  height: 287.55px;
+  gap: 10px;
+  box-shadow: 5px 9px 5px 2px rgb(66, 97, 112);
+  transition: background-color 2s;
+  cursor: pointer;
+}
+
+.card2:hover {
+  background-color: rgb(111, 142, 158);
+}
+
+
+.card2>img {
+  width: 278px;
+  height: 185.33px;
+  border-radius: 20px;
+}
+
+.cards-item {
+
+  margin-top: 20px;
+  width: 100%;
+  height: 100%
+}
+
+.card2>.card3 {
+  width: 266.01px;
+  height: 24px;
+  margin-top: -2px;
+
+}
+
+.card2>.card3>h1 {
+  font-size: 18px;
+  font-family: 'Gilroy-bold', sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+
+.card4 {
+  width: 260.99px;
+  height: 52px;
+  margin: 2px 0px 0px 10px;
+
+}
+
+.card5 {
+  width: 20px;
+  height: 24.24px;
+}
+
+.card5>img {
+  width: 18px;
+  height: 18px;
+  border-radius: 20px;
+}
+
+.card6 {
+  width: 101.49px;
+  height: 19px;
+  display: flex;
+  margin-top: -27px;
+  margin-left: 18px;
+  font-size: 16px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  justify-content: space-around;
+}
+
+.card6>span {
+  margin-top: -19px;
+  font-size: 16px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.card6>h5 {
+  margin-top: 2.5px;
+}
+
+.card7 {
+  width: 260.99px;
+  height: 39.99px;
+  margin: 2px 0px 0px 10px;
+}
+
+.card8 {
+  width: 260.99px;
+  height: 19px;
+  font-size: 16px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: #02060c99;
+  margin-top: -16px;
+  margin-left: -9px;
+}
+
+.card9 {
+  color: #02060c99;
+  width: 260.99px;
+  height: 19px;
+  font-size: 16px;
+  font-family: 'Gilroy-Light', 'sans-serif';
+  margin-top: -20px;
+  margin-left: -4px;
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.input-button>.input-class {
+  width: 50%;
+  border-radius: 20px;
+  padding: 1px;
+  margin-top: 7px;
+  box-shadow: 4px 2px 8px 5px rgb(66, 97, 112);
+  transition: border 2s;
+  border: solid;
+}
+
+.input-class>.search-input {
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 70px;
+}
+
+.search-input::placeholder {
+  text-align: start;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 2px;
+
+}
+
+.search-input[type="text"] {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: black;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+}
+
+.input-class:hover {
+  border-color: rgb(156, 40, 14);
+}
+
+.button-class {
+  margin-left: 20px;
+}
+
+.shimmer {
+  width: 300px;
+  height: 300px;
+  background-color: #dadcdc;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.footer-div {
+  background-color: aqua;
+}
+.special-items
+{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.special-items>.special-items2>img
+{
+  width: 100px;
+}
+.reactlifecycle
+{
+  width:300px;
+  height: 200px;
+}
+.specialmenu-image
+{
+  width:100px;
+}
+.notfoundimagediv{
+
+
+  margin-left: 40px;
+}
+.notfoundimagediv>.notfoundimage
+{
+  width:500px;
+  height: 500px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
